@@ -62,6 +62,12 @@ const ChatInterface = () => {
   return (
     <div className="container mx-auto p-4">
         
+        {businessName && (
+        <h2 className="text-center text-2xl font-semibold mb-4">
+          {businessName}
+        </h2>
+      )}
+      
       <div className="border p-4 rounded-lg">
         <div className="overflow-auto h-96 mb-4 p-4 bg-white rounded">
           {chatHistory.map((chat, index) => (

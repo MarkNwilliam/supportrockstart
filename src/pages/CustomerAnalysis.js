@@ -94,7 +94,7 @@ const handlePdfFileChange = (event) => {
 
           <div className="mb-4">
   <label htmlFor="pdf-upload" className="block text-gray-700 text-sm font-bold mb-2">
-    Upload PDF File
+    Upload PDF File of your metrics , policies or strategies
   </label>
   <input 
     id="pdf-upload" 

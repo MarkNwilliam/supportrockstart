@@ -80,7 +80,7 @@ const MakeChatbot = () => {
 
         <div className="mb-4">
           <label htmlFor="fileUpload" className="block text-gray-700 text-sm font-bold mb-2">
-            Upload File (TXT or PDF)
+            Upload File (TXT ONLY of your relevant data)
           </label>
           <input
             id="fileUpload"
